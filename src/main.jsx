@@ -1,12 +1,13 @@
+import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { createBrowserRouter, RouterProvider} from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 import App from './app';
-import Landing from './pages/Landing';
-import TheMan from './pages/TheMan';
-import TheWork from './pages/TheWork';
-import YouNeed from './pages/YouNeed';
+import Landing from './pages/Landing.jsx';
+import TheMan from './pages/TheMan.jsx';
+import TheWork from './pages/TheWork.jsx';
+import YouNeed from './pages/YouNeed.jsx';
 
 const router = createBrowserRouter([
     {
@@ -31,7 +32,7 @@ const router = createBrowserRouter([
             },
         ],
     },
-]) ;
+]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
     <RouterProvider router={router} />

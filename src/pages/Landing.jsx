@@ -3,7 +3,9 @@ import { Link } from 'react-router-dom';
 
 function Landing() {
     return (
+        <>
         <div class='landing'>
+
             <div class='intro'>
                 <h1>Allow Myself to Introduce Myself...</h1>
             </div>
@@ -17,5 +19,8 @@ function Landing() {
                 <h2>What You Need</h2>
             </div>
         </div>
+        </>
     );
 }
+
+export default Landing;
