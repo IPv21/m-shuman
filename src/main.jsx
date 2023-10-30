@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { createBrowserRouter, RouterProvider} from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css'
+import './components/style.css'
 
 import App from './app';
 import Landing from './pages/Landing.jsx';

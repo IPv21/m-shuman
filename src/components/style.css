@@ -1,0 +1,12 @@
+.landing {
+    background-color: black;
+    height: 100vh;
+}
+
+.intro {
+    color: rgb(255, 255, 255);
+    font-size: 4rem;
+    text-align: center;
+    padding-top: 10rem;
+    text-shadow: rgb(80, 33, 33) 0.2rem 0.2rem 0.2rem;
+}
