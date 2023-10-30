@@ -27,6 +27,7 @@ h2 {
 }
 
 .man {
+    display:flex;
     padding-left: 200px;
     padding-top: 52px;
     font-size: 66px;
