@@ -11,12 +11,12 @@ function Landing() {
                 <h1>Allow Myself to Introduce Myself...</h1>
             </div>
             <div class='man'>
-                <h1>The Man...</h1>
+                <h2>The Man...</h2>
             </div>
-            <div class='works'>
+            <div class='man'>
                 <h2>The Works...</h2>
             </div>
-            <div class='needs'>
+            <div class='man'>
                 <h2>What You Need</h2>
             </div>
         </div>
