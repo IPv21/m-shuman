@@ -8,7 +8,7 @@ import App from './app';
 import Landing from './pages/Landing.jsx';
 import TheMan from './pages/TheMan.jsx';
 import TheWork from './pages/TheWork.jsx';
-import YouNeed from './pages/YouNeed.jsx';
+import TheCall from './pages/TheCall.jsx';
 
 const router = createBrowserRouter([
     {
@@ -28,8 +28,8 @@ const router = createBrowserRouter([
                 element: <TheWork />,
             },
             {
-                path: '/need',
-                element: <YouNeed />,
+                path: '/call',
+                element: <TheCall />,
             },
         ],
     },
