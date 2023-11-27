@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../components/style.css'
-// import '../components/script.js'
+
 function Landing() {
     function manClick () {
         console.log("manClick");
@@ -22,6 +22,7 @@ function Landing() {
 
             <div class='intro'>
                 <h1>Matthew Shuman</h1>
+                <img src="../assets/images/matt1.jpg" alt="Matthew Shuman" height='250px' width='200px'/>
                 <p>{"{webDeveloper}"};</p>
 
             </div>
