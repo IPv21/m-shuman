@@ -1,21 +1,22 @@
 .landing {
+    border-left: 50px solid black;
+    border-right: 50px solid black;
     background-color: black;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .intro {
-    
-    color: rgb(255, 255, 255);
+    justify-content: left;
+    color: rgb(205, 173, 173);
     text-align: center;
     padding-top: 10rem;
     text-shadow: rgb(80, 33, 33) 0.2rem 0.2rem 0.2rem;
 }
 
 h1 {
-    font-family: 'Lobster', sans-serif;
-
+    font-family:"lobster";
     font-size: 60px;
-    color: rgb(47, 47, 47);
+    color: rgb(110, 109, 109);
 }
 
 h2 {
@@ -27,7 +28,6 @@ h2 {
 }
 
 .man {
-
     display:flex;
     padding-left: 200px;
     padding-top: 52px;
@@ -40,6 +40,5 @@ h2 {
 
 .man:hover {
     cursor: pointer;
-    color: saddlebrown;
+    transform: scale(1.2);
 }
-
