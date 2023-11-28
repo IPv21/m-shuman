@@ -42,3 +42,14 @@ h2 {
     cursor: pointer;
     transform: scale(1.2);
 }
+
+.theman {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+    padding: 20px;
+    object-fit: cover;
+    background-color: black;
+    color: white;
+}
