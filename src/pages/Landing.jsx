@@ -20,15 +20,15 @@ function Landing() {
         <>
         <div class='landing'>
 
-            <div class='intro'>
-                <h1>Matthew Shuman</h1>
-                <img src="../assets/images/matt1.jpg" alt="Matthew Shuman" height='250px' width='200px'/>
-                <p>{"{webDeveloper}"};</p>
+        <div className='intro'>
+    <h1>Matthew Shuman</h1>
+    <img src="../assets/images/cover.jpg" alt="Matthew Shuman" height='250px' width='220px'/>
+    <p><span className="brace">{'{'}</span><span className="web">web</span><span className="developer">Developer</span><span className="brace">{'}'}</span><span className='web'>;</span></p>
+</div>
 
-            </div>
             <div onClick={manClick} class='man'>
                 <h2>The Man...</h2>
-                <img src="../assets/images/man.png" alt="stick figure man" height='50px' width='50px'/>
+                <img className='padded-image' src="../assets/images/man.png" alt="stick figure man" height='50px' width='50px'/>
             </div>
             <div onClick={workClick} class='man'>
                 <h2>The Works...</h2>
