@@ -1,4 +1,19 @@
+import React from "react";
+import { useNavigate } from "react-router-dom";
+  
+
 export default function TheWork() {
+
+  const navigate = useNavigate();
+
+  const goToHome = () => {
+    navigate('/');
+  };
+
+  const goToCall = () => {
+    navigate('/call');
+  }
+
   return (
     <div className="works">
       <div className="work">
@@ -68,6 +83,23 @@ A collaborative project with 3 other student developers, Primal Planner is a fit
           </a>
         </div>
       </div>
+
+      <div class="card" style={{ width: '18rem' }}>
+        <img src="../assets/images/connect.png" class="card-img-top" alt="..."/>
+        <div class="card-body">
+          <h5 class="card-title">ConnectUs</h5>
+          <p class="card-text">
+          ConnectUs is a powerful React application designed to streamline communication within a company across different departments. Built by a talented team consisting of Nelson, William, William, and Matthew, this project leverages GraphQL and MongoDB to provide a seamless and efficient communication platform.
+          </p>
+          <a href="#" class="btn btn-secondary">
+            Get Connected!
+          </a>
+        </div>
+      </div>
+
+      <div className="buttons-container">
+        <button className="button" onClick={goToCall}>The Call...</button>
+    </div>
       
     </div>
   );
