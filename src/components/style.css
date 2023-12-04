@@ -91,6 +91,13 @@ h2 {
     background-color: rgb(0, 0, 0);
 }
 
+.works h1 {
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    text-shadow: rgb(97, 92, 92) 0.4rem 0.2rem 0.2rem;
+}
+
 .manpage h1 {
     color: white;
     text-align: center;
@@ -152,3 +159,26 @@ h2 {
     color: #000000;
 }
 
+
+
+
+.works {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    justify-content: space-around;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(0, 0, 0);
+}
+
+.work {
+    width: 100%;
+}
+
+.card {
+    height: 600px;
+    border-bottom: 20px solid black;
+}
