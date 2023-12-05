@@ -3,8 +3,10 @@
     "version": "1.0.0",
     "description": "A simple portfolio website to showcase my work.",
     "main": "index.jsx",
+    "homepage": "https://ipv21.github.io/m-shuman/",
     "scripts": {
-        "deploy": "gh-pages -d build",
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d dist",
         "dev": "vite",
         "start": "vite",
         "build": "vite build",
@@ -13,6 +15,7 @@
     },
     "dependencies": {
         "bootstrap": "^5.2.3",
+        "gh-pages-deploy": "^0.5.1",
         "react": "^18.2.0",
         "react-dom": "^18.2.0",
         "react-router-dom": "^6.10.0"
