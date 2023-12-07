@@ -14,7 +14,7 @@ export default function TheMan() {
   return (
     <div className="manpage">
       <h1>The Man...</h1>
-      <div className="theman">
+      <div className="moreman">
         <p>
           Hello! My name is Matthew Shuman. Thank you for taking some time out
           of your day to view my page. Born in California, raised in Lancaster,
