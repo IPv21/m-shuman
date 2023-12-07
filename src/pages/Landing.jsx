@@ -26,14 +26,13 @@ function Landing() {
     <p><span className="brace">{'{'}</span><span className="web">web</span><span className="developer">Developer</span><span className="brace">{'}'}</span><span className='web'>;</span></p>
 </div>
 
-            <div onClick={manClick} class='man'>
+            <div id="themanlanding" onClick={manClick} class='man'>
                 <h2>The Man...</h2>
-                <img className='padded-image' src="../assets/images/man.png" alt="stick figure man" height='50px' width='50px'/>
             </div>
-            <div onClick={workClick} class='man'>
+            <div id="theworkslanding" onClick={workClick} class='man'>
                 <h2>The Works...</h2>
             </div>
-            <div onclick={callClick} class='man'>
+            <div id="thecalllanding" onclick={callClick} class='man'>
                 <h2>The Call...</h2>
             </div>
         </div>
