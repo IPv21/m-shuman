@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import '../components/style.css'
+import '/src/style.css'
 
 function Landing() {
     function manClick () {
