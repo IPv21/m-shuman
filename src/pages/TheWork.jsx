@@ -1,5 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import '/src/style.css'
   
 
 export default function TheWork() {
@@ -20,11 +21,11 @@ export default function TheWork() {
       <h1>The Works...</h1>
       </div>
       <div class="card" style={{ width: '18rem' }}>
-        <img src="../assets/images/primal.png" height="400px" class="card-img-top" alt="..."/> 
+        <img src="/src/images/primal.png" height="400px" class="card-img-top" alt="..."/> 
         <div class="card-body">
           <h5 class="card-title">Primal Planner</h5>
           <p class="card-text">
-A collaborative project with 3 other student developers, Primal Planner is a fitness app that allows users to track their workouts. The app uses a MySQL database, handles routes with Express, and makes an API call for workout routines. The app is deployed on Heroku and uses the MVC paradigm.
+            Primal Planner is a fitness app that allows users to track their workouts. The app uses a MySQL database, handles routes with Express, and makes an API call for workout routines. The app is deployed on Heroku and uses the MVC paradigm.
           </p>
           <a href="https://primalplanner-6f3879bf7f09.herokuapp.com/" class="btn btn-secondary">
             GET PUMPED UP!
@@ -33,7 +34,7 @@ A collaborative project with 3 other student developers, Primal Planner is a fit
       </div>
 
       <div class="card" style={{ width: '18rem' }}>
-        <img src="../assets/images/wow.png" class="card-img-top" alt="Picture of a Blog"/> 
+        <img src="/src/images/wow.png" class="card-img-top" alt="Picture of a Blog"/> 
         <div class="card-body">
           <h5 class="card-title">Handleblogs</h5>
           <p class="card-text">
@@ -46,11 +47,11 @@ A collaborative project with 3 other student developers, Primal Planner is a fit
       </div>
 
       <div class="card" style={{ width: '18rem' }}>
-        <img src="../assets/images/factors.png" height="300px" class="card-img-top" alt="Image of Search Engine"/>
+        <img src="/src/images/factors.png" height="300px" class="card-img-top" alt="Image of Search Engine"/>
         <div class="card-body">
           <h5 class="card-title">Factors</h5>
           <p class="card-text">
-            A collaborative web app with 4 other student developers, Factors is a search engine that allows users to search for an actor or actress and see what movies they have been in. It uses the OMDB API to make the calls and is deployed on Github Pages.
+            Factors is a search engine that allows users to search for an actor or actress and see what movies they have been in. It uses the OMDB API to make the calls and is deployed on Github Pages.
           </p>
           <a href="https://brousy.github.io/factors/" class="btn btn-secondary">
             FIND EM!
@@ -59,11 +60,11 @@ A collaborative project with 3 other student developers, Primal Planner is a fit
       </div>
 
       <div class="card" style={{ width: '18rem' }}>
-        <img src="../assets/images/connect.png" class="card-img-top" alt="..."/>
+        <img src="/src/images/connect.png" class="card-img-top" alt="..."/>
         <div class="card-body">
           <h5 class="card-title">ConnectUs</h5>
           <p class="card-text">
-          ConnectUs is a powerful React application designed to streamline communication within a company across different departments. Built by a talented team consisting of Nelson, William, William, and Matthew, this project leverages GraphQL and MongoDB to provide a seamless and efficient communication platform.
+          ConnectUs is a powerful React application designed to streamline communication within a company across different departments. This project leverages GraphQL and MongoDB to provide a seamless and efficient communication platform.
           </p>
           <a href="#" class="btn btn-secondary">
             Get Connected!
@@ -72,7 +73,7 @@ A collaborative project with 3 other student developers, Primal Planner is a fit
       </div>
 
       <div class="card" style={{ width: '18rem' }}>
-        <img src="../assets/images/weather.png" class="card-img-top" alt="..."/> 
+        <img src="/src/images/weather.png" class="card-img-top" alt="..."/> 
         <div class="card-body">
           <h5 class="card-title">WeatherGuy</h5>
           <p class="card-text">
@@ -85,11 +86,11 @@ A collaborative project with 3 other student developers, Primal Planner is a fit
       </div>
 
       <div class="card" style={{ width: '18rem' }}>
-        <img src="../assets/images/connect.png" class="card-img-top" alt="..."/>
+        <img src="/src/images/connect.png" class="card-img-top" alt="..."/>
         <div class="card-body">
           <h5 class="card-title">ConnectUs</h5>
           <p class="card-text">
-          ConnectUs is a powerful React application designed to streamline communication within a company across different departments. Built by a talented team consisting of Nelson, William, William, and Matthew, this project leverages GraphQL and MongoDB to provide a seamless and efficient communication platform.
+          ConnectUs is a powerful React application designed to streamline communication within a company across different departments. This project leverages GraphQL and MongoDB to provide a seamless and efficient communication platform.
           </p>
           <a href="#" class="btn btn-secondary">
             Get Connected!

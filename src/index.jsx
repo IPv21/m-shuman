@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { createBrowserRouter, RouterProvider} from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css'
-import './components/style.css'
+import '/src/style.css'
 
 import App from './app.jsx';
 import Landing from './pages/Landing.jsx';
